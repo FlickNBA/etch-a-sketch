@@ -14,5 +14,20 @@ body {
 }
 
 #square {
-    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: grid;
+}
+
+#square div {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#square div:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+#square div:last-child {
+    border-bottom-right-radius: 0.5rem;
 }
